@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
     private static class ATask extends AsyncTask<String, Void, View>{
 
         public ATask(){
-
+            System.out.print("");
         }
 
         @Override
