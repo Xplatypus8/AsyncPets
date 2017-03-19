@@ -54,6 +54,10 @@ public class MainActivity extends AppCompatActivity {
 
     private static class ATask extends AsyncTask<String, Void, View>{
 
+        public ATask(){
+
+        }
+
         @Override
         protected View doInBackground(String... params) {
             return null;
