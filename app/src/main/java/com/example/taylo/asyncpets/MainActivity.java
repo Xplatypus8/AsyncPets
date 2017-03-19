@@ -1,5 +1,6 @@
 package com.example.taylo.asyncpets;
 
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -10,6 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private CheckConnection connectStatus;
+    ATask myTask;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,4 +43,22 @@ public class MainActivity extends AppCompatActivity {
       getMenuInflater().inflate(R.menu.main,menu);
         return true;
     }
+
+
+
+
+
+
+
+
+
+    private static class ATask extends AsyncTask<String, Void, View>{
+
+        @Override
+        protected View doInBackground(String... params) {
+            return null;
+        }
+    }
 }
+
+
