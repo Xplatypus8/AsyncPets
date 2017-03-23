@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="JSONoptions">
-        <item>Tretix</item>
-        <item>CNU Defender</item>
+        <item>Pair - Teton Software - Pets</item>
+        <item>CNU-Defender</item>
     </string-array>
 
     <string-array name="values">
-        <item>http://www.tetonsoftware.com/pets/</item>
+        <item>http://www.tetonsoftware.com/pets/pets.json</item>
         <item>http://www.pcs.cnu.edu/~kperkins/pets/</item>
     </string-array>
 

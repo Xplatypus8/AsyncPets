@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <ListPreference android:title="Info"
-        android:key ="hamil"
+        android:key ="listpref"
         android:summary="Select which site to get JSON data from"
+        android:defaultValue="http://www.tetonsoftware.com/pets/pets.json"
         android:entries="@array/JSONoptions"
         android:entryValues="@array/values">
     </ListPreference>

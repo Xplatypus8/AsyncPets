@@ -20,12 +20,20 @@
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingRight="10dp" />
+            android:layout_height="60dp"
+            android:paddingRight="10dp"
+            android:gravity="center"
+            />
 
 
     </android.support.v7.widget.Toolbar>
 
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView"
+        />
 
 
 </RelativeLayout>

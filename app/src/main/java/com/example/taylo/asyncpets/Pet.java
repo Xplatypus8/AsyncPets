@@ -1,7 +1,7 @@
 package com.example.taylo.asyncpets;
 
 /**
- * Created by taylo on 3/19/2017.
+ * Created by Clifton Taylor Dent and Kyle Hoobler on 3/19/2017.
  */
 
 public class Pet {
